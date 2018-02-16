@@ -8,3 +8,7 @@ Metrics/LineLength:
   Max: 100
   IgnoredPatterns:
     - '^\s*#'
+
+Style/FileName:
+  Exclude:
+    - 'lib/bemer-bootstrap.rb'
