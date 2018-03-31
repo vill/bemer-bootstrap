@@ -2,6 +2,6 @@
   = template.block :alert do |alert|
     = alert.add_cls 'alert-dismissible'
     = alert.content do |node, builder|
-      = builder.elem :alert, :close, type: :button, tag: :button, cls: 'close', data: { dismiss: :alert }
+      = builder.block :close, type: :button, tag: :button, cls: 'close', 'data-dismiss': :alert
         span aria-hidden='true' &times;
       = node.content
