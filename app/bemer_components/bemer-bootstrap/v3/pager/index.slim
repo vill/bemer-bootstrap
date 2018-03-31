@@ -1,0 +1,6 @@
+= define_component bem_cascade: false, tag: :li do |component|
+  = component.block tag: :nav
+    = component.block :pager, tag: :ul, cls: 'pager' do |pager|
+      = pager.elem :previous
+      = component.text ' '
+      = pager.elem :next
