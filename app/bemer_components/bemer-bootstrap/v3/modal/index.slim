@@ -1,0 +1,10 @@
+= define_component bem_cascade: false, tag: :div do |component|
+  = component.block :modal, cls: 'modal fade', role: :dialog, tabindex: -1 do |modal|
+    = modal.elem :dialog, role: :document, cls: 'modal-dialog'
+      = modal.elem :content, cls: 'modal-content'
+        = modal.elem :header, cls: 'modal-header'
+          = component.block :close, type: :button, tag: :button, cls: 'close', 'data-dismiss': :modal
+            span aria-hidden='true' &times;
+          = modal.elem :title, tag: :h4, cls: 'modal-title'
+        = modal.elem :body, cls: 'modal-body'
+        = modal.elem :footer, cls: 'modal-footer'
