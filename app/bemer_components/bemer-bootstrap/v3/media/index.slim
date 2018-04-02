@@ -1,0 +1,6 @@
+= define_component bem_cascade: false, tag: :div do |component|
+  = component.block :media, cls: 'media' do |media|
+    = media.elem :container, cls: 'media-left'
+    = media.elem :body, cls: 'media-body'
+      = media.elem :heading, tag: :h4, cls: 'media-heading'
+      = media.elem :content, tag: false

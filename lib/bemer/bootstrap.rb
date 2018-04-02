@@ -1,9 +1,7 @@
 # frozen_string_literal: true
 
-require 'bemer/bootstrap/version'
+require 'bemer'
+require 'slim-rails'
 
-module Bemer
-  module Bootstrap
-    # Your code goes here...
-  end
-end
+require 'bemer/bootstrap/version'
+require 'bemer/bootstrap/engine' if defined?(::Rails)

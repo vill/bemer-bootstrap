@@ -1,0 +1,6 @@
+= define_component bem_cascade: false, tag: :div do |component|
+  = component.block :panel, cls: 'panel' do |panel|
+    = panel.elem :heading, cls: 'panel-heading'
+      = panel.elem :title, tag: :h3, cls: 'panel-title'
+    = panel.elem :body, cls: 'panel-body'
+    = panel.elem :footer, cls: 'panel-footer'
