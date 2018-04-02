@@ -1,36 +1,38 @@
-# Bemer::Bootstrap
+# Bemer Bootstrap
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/bemer/bootstrap`. To experiment with that code, run `bin/console` for an interactive prompt.
+Переиспользуемые компоненты Bootstrap v3.
 
-TODO: Delete this and the text above, and describe your gem
+## Установка
 
-## Installation
-
-Add this line to your application's Gemfile:
+Добавить в `Gemfile`:
 
 ```ruby
-gem 'bemer-bootstrap'
+gem 'bemer-bootstrap', '~> 0.1.0'
 ```
 
-And then execute:
+Выполнить в терминале команду:
 
     $ bundle
 
-Or install it yourself as:
+## Использование
 
-    $ gem install bemer-bootstrap
+[Пример приложения](https://github.com/vill/bemer-example) с использованием [bemer](https://github.com/vill/bemer) и [bemer-bootstrap](https://github.com/vill/bemer-bootstrap).
 
-## Usage
+## Компоненты
 
-TODO: Write usage instructions here
+1. [Button](https://getbootstrap.com/docs/3.3/css/#buttons)
+1. [Progress bar](https://getbootstrap.com/docs/3.3/components/#progress)
+1. [Media object](https://getbootstrap.com/docs/3.3/components/#media)
+1. [Pager](https://getbootstrap.com/docs/3.3/components/#pagination-pager)
+1. [Blockquote](https://getbootstrap.com/docs/3.3/css/#type-blockquotes)
+1. [Modal](https://getbootstrap.com/docs/3.3/javascript/#modals)
+1. [Alert](https://getbootstrap.com/docs/3.3/components/#alerts)
+1. [Panel](https://getbootstrap.com/docs/3.3/components/#panels)
 
-## Development
+## Ссылки
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+1. https://getbootstrap.com/docs/3.3/components/
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+## Лицензия
 
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/Alexander Grigorev/bemer-bootstrap.
-
+Copyright (c) 2018 Александр Григорьев. Более подробную информацию о лицензии можно получить в файле [LICENSE.txt](LICENSE.txt).
