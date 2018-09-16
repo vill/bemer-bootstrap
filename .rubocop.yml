@@ -9,6 +9,6 @@ Metrics/LineLength:
   IgnoredPatterns:
     - '^\s*#'
 
-Style/FileName:
+Naming/FileName:
   Exclude:
     - 'lib/bemer-bootstrap.rb'
