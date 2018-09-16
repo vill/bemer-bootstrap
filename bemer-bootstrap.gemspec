@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-lib = File.expand_path('../lib', __FILE__)
+lib = File.expand_path('lib', __dir__)
 
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
@@ -31,10 +31,10 @@ Gem::Specification.new do |spec| # rubocop:disable Metrics/BlockLength
 
   spec.add_development_dependency 'bundler',       '~> 1.15'
   spec.add_development_dependency 'bundler-audit', '~> 0.6.0'
-  spec.add_development_dependency 'fasterer',      '~> 0.4.0'
-  spec.add_development_dependency 'overcommit',    '~> 0.43.0'
+  spec.add_development_dependency 'fasterer',      '~> 0.4.1'
+  spec.add_development_dependency 'overcommit',    '~> 0.46.0'
   spec.add_development_dependency 'rake',          '~> 12.3.0'
-  spec.add_development_dependency 'rubocop',       '~> 0.52.1'
+  spec.add_development_dependency 'rubocop',       '~> 0.59.1'
 
   spec.add_runtime_dependency 'bemer',      '~> 0.1.0'
   spec.add_runtime_dependency 'slim-rails', '~> 3.1'
