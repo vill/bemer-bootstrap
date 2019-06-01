@@ -7,7 +7,7 @@
 Добавить в `Gemfile`:
 
 ```ruby
-gem 'bemer-bootstrap', '~> 0.1.0'
+gem 'bemer-bootstrap', '~> 0.2.0'
 ```
 
 Выполнить в терминале команду:
