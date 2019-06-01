@@ -9,8 +9,8 @@ require 'bemer/bootstrap/version'
 Gem::Specification.new do |spec| # rubocop:disable Metrics/BlockLength
   spec.name             = 'bemer-bootstrap'
   spec.version          = Bemer::Bootstrap::VERSION
-  spec.authors          = ['Alexander Grigorev']
-  spec.email            = ['vill@rubyinventory.org']
+  spec.author           = 'Alexander Grigorev'
+  spec.email            = 'vill@rubyinventory.org'
 
   spec.summary          = 'Bootstrap as Bemer components.'
   spec.description      = 'Bootstrap as Bemer components.'
