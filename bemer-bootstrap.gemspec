@@ -9,8 +9,8 @@ require 'bemer/bootstrap/version'
 Gem::Specification.new do |spec| # rubocop:disable Metrics/BlockLength
   spec.name             = 'bemer-bootstrap'
   spec.version          = Bemer::Bootstrap::VERSION
-  spec.authors          = ['Alexander Grigorev']
-  spec.email            = ['vill@rubyinventory.org']
+  spec.author           = 'Alexander Grigorev'
+  spec.email            = 'vill@rubyinventory.org'
 
   spec.summary          = 'Bootstrap as Bemer components.'
   spec.description      = 'Bootstrap as Bemer components.'
@@ -36,6 +36,6 @@ Gem::Specification.new do |spec| # rubocop:disable Metrics/BlockLength
   spec.add_development_dependency 'rake',          '~> 12.3.0'
   spec.add_development_dependency 'rubocop',       '~> 0.59.1'
 
-  spec.add_runtime_dependency 'bemer',      '~> 0.1.0'
+  spec.add_runtime_dependency 'bemer',      '>= 0.1.0', '< 1.0'
   spec.add_runtime_dependency 'slim-rails', '~> 3.1'
 end
