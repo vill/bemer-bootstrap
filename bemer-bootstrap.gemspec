@@ -36,6 +36,6 @@ Gem::Specification.new do |spec| # rubocop:disable Metrics/BlockLength
   spec.add_development_dependency 'rake',          '~> 12.3.0'
   spec.add_development_dependency 'rubocop',       '~> 0.59.1'
 
-  spec.add_runtime_dependency 'bemer',      '~> 0.1.0'
+  spec.add_runtime_dependency 'bemer',      '>= 0.1.0', '< 1.0'
   spec.add_runtime_dependency 'slim-rails', '~> 3.1'
 end
