@@ -5,6 +5,12 @@ module Bemer
     class Engine < ::Rails::Engine
       path = root.join('app', 'bemer_components').to_s
 
+      initializer 'bemer-bootstrap.ignore_autoload_path' do
+        next unless defined?(::Zeitwerk) && Rails.autoloaders.zeitwerk_enabled?
+
+        Rails.autoloaders.main.ignore(path)
+      end
+
       initializer 'bemer-bootstrap.add_path' do
         Bemer.paths << path
       end
