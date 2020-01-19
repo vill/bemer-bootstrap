@@ -62,7 +62,7 @@ GEM
     parser (2.5.1.2)
       ast (~> 2.4.0)
     powerpack (0.1.2)
-    rack (2.0.7)
+    rack (2.1.1)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails-dom-testing (2.0.3)
@@ -115,6 +115,7 @@ DEPENDENCIES
   fasterer (~> 0.4.1)
   nokogiri (~> 1.10.7)
   overcommit (~> 0.46.0)
+  rack (~> 2.1.1)
   rake (~> 12.3.0)
   rubocop (~> 0.59.1)
 
