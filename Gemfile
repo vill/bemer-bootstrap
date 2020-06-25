@@ -10,7 +10,7 @@ gem 'nokogiri', '~> 1.10.7'
 
 # Rack provides a minimal, modular and adaptable interface for developing web applications in Ruby.
 # Fix CVE-2019-16782 https://github.com/rack/rack/security/advisories/GHSA-hrqr-hxpp-chr3
-gem 'rack', '~> 2.1.1'
+gem 'rack', '~> 2.1.4'
 
 # Loofah is a general library for manipulating and transforming HTML/XML documents and fragments, built on top of Nokogiri.
 # Fix CVE-2019-15587 https://github.com/flavorjones/loofah/issues/171
