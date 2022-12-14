@@ -14,4 +14,4 @@ gem 'rack', '~> 2.1.1'
 
 # Loofah is a general library for manipulating and transforming HTML/XML documents and fragments, built on top of Nokogiri.
 # Fix CVE-2019-15587 https://github.com/flavorjones/loofah/issues/171
-gem 'loofah', '~> 2.4.0'
+gem 'loofah', '~> 2.19.1'
